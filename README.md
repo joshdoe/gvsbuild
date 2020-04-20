@@ -47,6 +47,12 @@ HexChat developers decided that their script should focus on their specific need
     ```
     python .\build.py --help
     ```
+    
+    For lots of build options, run:
+    
+    ```
+    python .\build.py build --help
+    ```
 
     Is possible to set some parameters from a file, e.g. vs2015-release.pro, putting the @ character before the file name. The file contains the option, one per line, separated by a carriage return:
     
