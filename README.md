@@ -71,7 +71,7 @@ HexChat developers decided that their script should focus on their specific need
     python .\build.py build @vs2015-release.pro gtk3-full
     ```
  
-1. When the script is done, your GTK+ stack will be found under _C:\gtk-build\gtk_. Enjoy!
+1. When the script is done, your GTK+ stack will be found under _C:\gtk-build\gtk_, or the directory you specified with the `--build-dir` option. Enjoy!
 
 ## License
 
