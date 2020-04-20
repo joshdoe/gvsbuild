@@ -19,7 +19,7 @@ HexChat developers decided that their script should focus on their specific need
 
 1. Install the following build tools and dependencies:
 
-    * [Visual Studio for Windows Desktop](http://www.visualstudio.com/downloads) - 2013, 2015 and 2017 are currently supported.
+    * [Visual Studio for Windows Desktop](http://www.visualstudio.com/downloads) - 2013, 2015, 2017, and 2019 are currently supported.
     * [msys2](https://msys2.github.io/)
     * [Python 3.6](https://www.python.org/ftp/python/3.6.2/python-3.6.2-amd64.exe) (install in C:\Python36 or use the --python-dir option to tell the script the correct location), or other package like [Miniconda 3](https://repo.continuum.io/miniconda/Miniconda3-latest-Windows-x86_64.exe)
 
@@ -34,11 +34,11 @@ HexChat developers decided that their script should focus on their specific need
     python .\build.py build gtk3
     ```
 
-    To build the 64-bit version, run:
+    To build the 64-bit version with Visual Studio 2019, run:
 
     ```
     cd C:\gtk-build\github\gvsbuild
-    python .\build.py build -p x64 gtk3
+    python .\build.py build -p x64 --vs-ver 16 gtk3
     ```
 
     For more information about the possible commands. Run
