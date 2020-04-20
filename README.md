@@ -27,7 +27,7 @@ HexChat developers decided that their script should focus on their specific need
 
 1. Clone [this repository](https://github.com/wingtk/gvsbuild) to _C:\gtk-build\github\gvsbuild_ It contains the build script, project files and patches.
 
-1. Now start a command-line window as a regular user. Go to the _gvsbuild_ directory and start building with the script. For example, to build 32-bit GTK+ 3 and its dependencies, run:
+1. Now start a command-line window as a regular user (`Command Prompt` is easiest, but `MSYS2` shell works as well if you add Git and Python to the `PATH`. Go to the _gvsbuild_ directory you cloned and start building with the script. For example, to build 32-bit GTK+ 3 and its dependencies, run:
 
     ```
     cd C:\gtk-build\github\gvsbuild
